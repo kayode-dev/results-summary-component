@@ -148,6 +148,18 @@ button:hover{
     color: #c8c7ff;
 }
 
+@media screen and (max-width: 1115px){
+    .main-report{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 860px){
+    .main-report{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     body{
         margin: 0;
