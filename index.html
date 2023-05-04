@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-report">
+      <div class="overview-pane">
+        <h3 class="result-text">Your Result</h3>
+        <div class="score-circle">
+          <div class="score-circle-text">
+            <h1 class="overall-grade">76</h1>
+            <p class="of-hund">of 100</p>
+          </div>
+        </div>
+        <h2>Great</h2>
+        <p class="remark">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="summary-section">
+        <p class="summary-heading">Summary</p>
+        <div class="breakdown react">
+          <span class="title"
+            ><img src="./assets/images/icon-reaction.svg" />
+            <p>Reaction</p></span
+          >
+          <p class="score"><strong>80</strong> / 100</p>
+        </div>
+        <div class="breakdown memory">
+          <span class="title"
+            ><img src="./assets/images/icon-memory.svg" />
+            <p>Memory</p>
+          </span>
+          <p class="score"><strong>92</strong> / 100</p>
+        </div>
+        <div class="breakdown verbal">
+          <span class="title"
+            ><img src="./assets/images/icon-verbal.svg" />
+            <p>Verbal</p></span
+          >
+          <p class="score"><strong>61</strong> / 100</p>
+        </div>
+        <div class="breakdown visual">
+          <span class="title"
+            ><img src="./assets/images/icon-visual.svg" />
+            <p>Visual</p></span
+          >
+          <p class="score"><strong>72</strong> / 100</p>
+        </div>
+
+        <button>Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
